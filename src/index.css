@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    
+@layer components{
+    .bannerIcon{
+        @apply w-16 h-16 bg-black bg-opacity-75 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
+    }
+
+    .resumeli{
+        @apply w-full h-20 bg-black bg-opacity-75 text-base text-white flex justify-center cursor-pointer hover:bg-opacity-50 duration-300 items-center border-[1px] rounded-none border-none;
+    }
+    .bgOpacity{
+        @apply bg-black bg-opacity-40;
+    }
+    .glow-on-hover {
+        transition: all 0.5s ease-in-out;
+      }
+      
+      .glow-on-hover:hover {
+        box-shadow: 
+          0 0 8px rgba(56, 209, 202, 0.6), 
+          0 0 15px rgba(56, 209, 202, 0.7), 
+          0 0 20px rgba(56, 209, 202, 0.8), 
+          0 0 25px rgba(56, 209, 202, 0.9), 
+          0 0 30px rgba(56, 209, 202, 1); /* Lighter Teal Glow */
+        transform: translateY(-2px);
+      }
+
+      .custom-timeline::before {
+        background-color: black !important;
+      }
+
+      .iconShadow {
+        filter: drop-shadow(0px 2px 4px rgba(255, 255, 255, 0.1)); /* Adjust the opacity value as needed */
+      }
+}
+
+.active{
+    color:blue
+}
