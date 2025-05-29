@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/MLSPortofolio/static/css/main.2a759c50.css",
+    "main.js": "/MLSPortofolio/static/js/main.a3801581.js",
+    "static/media/DinoDrive-Trailer.mp4": "/MLSPortofolio/static/media/DinoDrive-Trailer.496891ac15c736e79cca.mp4",
+    "static/media/Neuroscience_Notebook.mp4": "/MLSPortofolio/static/media/Neuroscience_Notebook.c02b4f91645b023f7bf9.mp4",
+    "static/media/Shoppingcart.mp4": "/MLSPortofolio/static/media/Shoppingcart.131ca980f9642de29f66.mp4",
+    "static/media/solAR.mp4": "/MLSPortofolio/static/media/solAR.9211b18ccb68c29117d9.mp4",
+    "static/media/Gwack_Project.mp4": "/MLSPortofolio/static/media/Gwack_Project.e1694bf07a0d33b8072b.mp4",
+    "static/media/mbannerImg.png": "/MLSPortofolio/static/media/mbannerImg.1561ef972e4de37577c0.png",
+    "static/media/image6.jpg": "/MLSPortofolio/static/media/image6.1ae286c28e9ab38678b4.jpg",
+    "static/media/image4.jpg": "/MLSPortofolio/static/media/image4.74c95a8d2dff6cb87135.jpg",
+    "static/media/image2.jpg": "/MLSPortofolio/static/media/image2.7f01ac4d2b1194e398bc.jpg",
+    "static/media/image1.jpg": "/MLSPortofolio/static/media/image1.10c092060949bad8535c.jpg",
+    "static/media/mcontactImg.png": "/MLSPortofolio/static/media/mcontactImg.1704c06a569681f766bd.png",
+    "static/media/image8.jpg": "/MLSPortofolio/static/media/image8.d4c82c2fddc752daeadb.jpg",
+    "static/media/Pump_Report.pdf": "/MLSPortofolio/static/media/Pump_Report.153bec5b58d485c1c475.pdf",
+    "static/media/pshs.png": "/MLSPortofolio/static/media/pshs.790b7fa2f81efc5c27f6.png",
+    "static/media/image7.jpg": "/MLSPortofolio/static/media/image7.df4e27d5f5bf972c2af3.jpg",
+    "static/media/mlogo.png": "/MLSPortofolio/static/media/mlogo.27c1d1f54036e66dcd9b.png",
+    "static/media/George_Washington_University_seal.png": "/MLSPortofolio/static/media/George_Washington_University_seal.9f0792307b4d5a26e183.png",
+    "static/media/image5.jpg": "/MLSPortofolio/static/media/image5.46691299e563a417e374.jpg",
+    "static/media/MLS_Resume.pdf": "/MLSPortofolio/static/media/MLS_Resume.cc9c5e50405fe7a9c88c.pdf",
+    "static/media/image3.jpg": "/MLSPortofolio/static/media/image3.6008ffdaa119aa349942.jpg",
+    "index.html": "/MLSPortofolio/index.html",
+    "main.2a759c50.css.map": "/MLSPortofolio/static/css/main.2a759c50.css.map",
+    "main.a3801581.js.map": "/MLSPortofolio/static/js/main.a3801581.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a759c50.css",
+    "static/js/main.a3801581.js"
+  ]
+}
