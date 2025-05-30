@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a759c50.css",
-    "main.js": "/static/js/main.42506c2f.js",
+    "main.css": "/static/css/main.d780a391.css",
+    "main.js": "/static/js/main.96ff583e.js",
     "static/media/DinoDrive-Trailer.mp4": "/static/media/DinoDrive-Trailer.496891ac15c736e79cca.mp4",
     "static/media/Neuroscience_Notebook.mp4": "/static/media/Neuroscience_Notebook.c02b4f91645b023f7bf9.mp4",
     "static/media/Shoppingcart.mp4": "/static/media/Shoppingcart.131ca980f9642de29f66.mp4",
     "static/media/solAR.mp4": "/static/media/solAR.9211b18ccb68c29117d9.mp4",
     "static/media/Gwack_Project.mp4": "/static/media/Gwack_Project.e1694bf07a0d33b8072b.mp4",
+    "static/media/image11.png": "/static/media/image11.e0e346b3e796a8a40fab.png",
     "static/media/mbannerImg.png": "/static/media/mbannerImg.1561ef972e4de37577c0.png",
     "static/media/image6.jpg": "/static/media/image6.1ae286c28e9ab38678b4.jpg",
     "static/media/image4.jpg": "/static/media/image4.74c95a8d2dff6cb87135.jpg",
@@ -20,14 +21,18 @@
     "static/media/mlogo.png": "/static/media/mlogo.27c1d1f54036e66dcd9b.png",
     "static/media/George_Washington_University_seal.png": "/static/media/George_Washington_University_seal.9f0792307b4d5a26e183.png",
     "static/media/image5.jpg": "/static/media/image5.46691299e563a417e374.jpg",
-    "static/media/MLS_Resume.pdf": "/static/media/MLS_Resume.cc9c5e50405fe7a9c88c.pdf",
+    "static/media/MatiasLiuSchmid_Resume_2025.pdf": "/static/media/MatiasLiuSchmid_Resume_2025.b22ffcb79e87d4f9cf3c.pdf",
+    "static/media/image10.jpg": "/static/media/image10.166a46a48008a619dcf5.jpg",
+    "static/media/bart.png": "/static/media/bart.30089fd009f138f1ce10.png",
+    "static/media/thaddeus.png": "/static/media/thaddeus.1dbde4925158e62339d3.png",
     "static/media/image3.jpg": "/static/media/image3.6008ffdaa119aa349942.jpg",
+    "static/media/image9.png": "/static/media/image9.91f091f8b1a33b76cfff.png",
     "index.html": "/index.html",
-    "main.2a759c50.css.map": "/static/css/main.2a759c50.css.map",
-    "main.42506c2f.js.map": "/static/js/main.42506c2f.js.map"
+    "main.d780a391.css.map": "/static/css/main.d780a391.css.map",
+    "main.96ff583e.js.map": "/static/js/main.96ff583e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a759c50.css",
-    "static/js/main.42506c2f.js"
+    "static/css/main.d780a391.css",
+    "static/js/main.96ff583e.js"
   ]
 }
