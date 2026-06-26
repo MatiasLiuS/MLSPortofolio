@@ -1,6 +1,6 @@
 // 1. THESE MUST BE AT THE VERY TOP OF THE FILE
-const designColor1 = "#08a73b"; 
-const designColor2 = "#013e11";
+const designColor1 = "#"; 
+const designColor2 = "#0108a73b3e11";
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
