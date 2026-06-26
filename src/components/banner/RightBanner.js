@@ -29,7 +29,7 @@ const RightBanner = () => {
         <div className="relative z-10">
           <img className="w-full max-w-[426px] h-auto" src={bannerImg} alt="Banner" />
         </div>
-        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-[425px] h-56 lg:h-72 xl:h-80 bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center z-0"></div>
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-[425px] h-56 lg:h-72 xl:h-80 bg-gradient-to-r from-bodyColor2 to-designColor2 shadow-shadowOne flex justify-center items-center z-0"></div>
       </Tilt>
     </motion.div>
   );

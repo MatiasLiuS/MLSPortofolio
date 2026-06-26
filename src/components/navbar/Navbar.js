@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import { logo, resume } from "../../assets/index";
+import { resume } from "../../assets/index";
 import { MdMenu, MdClose } from 'react-icons/md'; // Ensure react-icons is installed
 import { navLinksdata } from '../../constants';
 import { motion } from 'framer-motion';
@@ -18,11 +18,10 @@ const Navbar = () => {
     };
 
     return (
-        <div className="w-screen h-24 fixed top-0 left-0 z-50 bg-bodyColor flex justify-between items-center px-4 lg:px-8 border-b-[1px] font-titleFont border-b-black">
+        <div className="w-screen h-24 fixed top-0 left-0 z-50 bg-bodyColor flex justify-between items-center px-4 lg:px-8 border-b-[1px] font-titleFont border-b-borderColor">
             <div className="flex justify-between items-center w-full">
                 <div className="shrink-0">
-                    <img src={logo} alt="Logo" className="h-12 w-auto" />
-                </div>
+                    <span className="text-designColor1 capitalize font-bold">Matias Liu Schmid</span>                </div>
                 <div className="hidden md:flex items-center gap-6 lg:gap-8 xl:gap-10">
                     {navLinksdata.map(({_id, title, link}) => (
                         <Link
@@ -33,16 +32,15 @@ const Navbar = () => {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            className="text-sm lg:text-base font-normal text-black tracking-wide hover:text-designColor duration-300 cursor-pointer"
+                            className="text-sm lg:text-base font-normal text-lightText tracking-wide hover:text-designColor1 duration-300 cursor-pointer"
                         >
                             {title}
                         </Link>
                     ))}
                     <motion.a 
                         href={resume} 
-                        download="MLS_Resume.pdf" 
-                        className="text-white font-bold py-2 px-4 rounded-full text-sm bg-gradient-to-r from-blue-500 to-teal-400 hover:from-blue-700 hover:to-teal-600 duration-300 no-underline inline-block glow-on-hover"
-                        variants={buttonVariants}
+                        download="MatiasLiuSchmid_Resume.pdf" 
+                        className="text-white font-bold py-2 px-4 rounded-full text-sm bg-gradient-to-r from-designColor1 to-designColor2 hover:from-designColor2 hover:to-designColor1 duration-300 no-underline inline-block glow-on-hover"                        variants={buttonVariants}
                         initial="hidden"
                         animate="visible"
                     >
@@ -57,7 +55,7 @@ const Navbar = () => {
                 <div className="flex md:hidden flex-col items-center absolute top-full left-0 w-full bg-bodyColor shadow-md">
                     <ul className="flex flex-col items-center gap-4 p-4">
                         {navLinksdata.map(({_id, title, link}) => (
-                            <li key={_id} className="text-base font-normal text-black tracking-wide hover:text-designColor duration-300">
+                            <li key={_id} className="text-base font-normal text-black tracking-wide hover:text-designColor1 duration-300">
                                 <Link
                                     to={link}
                                     spy={true}

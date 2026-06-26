@@ -1,8 +1,7 @@
 
-import logo from "./images/mlogo.png";
 import bannerImg from "./images/mbannerImg.png";
 import contactImg from "./images/contact/mcontactImg.png"
-import resume from "./images/MLS_Resume.pdf"
+import resume from "./images/MatiasLiuSchmid_Resume.pdf"
 import pump from "./images/Pump_Report.pdf"
 
 import img1 from "./images/projects/image1.jpg"
@@ -21,7 +20,6 @@ import vid4 from "./images/projects/solAR.mp4"
 import vid5 from "./images/projects/DinoDrive-Trailer.mp4"
 
 export {
-  logo,
   bannerImg,
   contactImg,
   resume,

@@ -7,7 +7,7 @@
     
 @layer components{
     .bannerIcon{
-        @apply w-16 h-16 bg-black bg-opacity-75 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
+        @apply w-16 h-16 bg-black bg-opacity-75 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor1 cursor-pointer duration-300;
     }
 
     .resumeli{
@@ -22,23 +22,22 @@
       
       .glow-on-hover:hover {
         box-shadow: 
-          0 0 8px rgba(56, 209, 202, 0.6), 
-          0 0 15px rgba(56, 209, 202, 0.7), 
-          0 0 20px rgba(56, 209, 202, 0.8), 
-          0 0 25px rgba(56, 209, 202, 0.9), 
-          0 0 30px rgba(56, 209, 202, 1); /* Lighter Teal Glow */
+          0 0 8px rgba(18, 115, 44, 0.6), 
+          0 0 15px rgba(18, 115, 44, 0.7), 
+          0 0 20px rgba(18, 115, 44, 0.8), 
+          0 0 25px rgba(18, 115, 44, 0.9), 
+          0 0 30px rgba(18, 115, 44, 1.0); /* Forest Green Glow */
         transform: translateY(-2px);
       }
 
       .custom-timeline::before {
-        background-color: black !important;
+        background-color: rgb(255, 255, 255) !important;
       }
 
       .iconShadow {
-        filter: drop-shadow(0px 2px 4px rgba(255, 255, 255, 0.1)); /* Adjust the opacity value as needed */
+        filter: drop-shadow(0px 2px 4px rgba(255, 0, 0, 0.1)); /* Adjust the opacity value as needed */
       }
+      
+
 }
 
-.active{
-    color:blue
-}

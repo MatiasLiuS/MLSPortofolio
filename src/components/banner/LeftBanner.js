@@ -6,7 +6,15 @@ import { SiHtml5, SiCss3, SiJavascript, SiMysql, SiPython, SiUnity, SiAndroidstu
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Full Stack Engineer.", "Computer Programmer.", "Web Developer.", "Database Developer.", "AR and VR Developer.", " Mobile App Developer."],
+    words: [
+        "Software Engineer.",
+        "AI Integration Engineer.",
+        "Full Stack Developer.",
+        "ML Feature Engineer.",
+        "Cloud Solutions Developer.",
+        "HCI & Wearables Developer.",
+        "Interactive XR Developer."
+    ],    
         loop: true,
         typeSpeed: 100,
         deleteSpeed: 50,
@@ -40,19 +48,20 @@ const LeftBanner = () => {
         >
             <div className='flex flex-col gap-2 md:gap-6'>
                 <h4 className="text-lg md:text-xl font-normal">WELCOME TO MY PORTFOLIO</h4>
-                <h1 className='text-3xl lg:text-5xl font-bold text-black'>
-                    Hi, I'm <span className="text-designColor capitalize">Matias Liu Schmid</span>
+                <h1 className='text-3xl lg:text-5xl font-bold lightText'>
+                    Hi, I'm <span className="text-designColor1 capitalize">Matias Liu Schmid</span>
                 </h1>
-                <div style={{ minHeight: '64px' }} className="text-2xl lg:text-4xl font-bold text-black">
+                <div style={{ minHeight: '64px' }} className="text-2xl lg:text-4xl font-bold text-lightText">
                     a <span>{text}</span>
                     <Cursor cursorColor="#FFFFFF" />
                 </div>
                 <p className='text-sm md:text-base lg:text-md font-bodyFont leading-6 tracking-wide'>
-                 I am a senior at the George Washington University, with a passion for art and computer science. 
-                 From a young age I have been driven by a relentless need for invention and innovation, fueling a journey that seamlessly blends creativity and technology. 
-                 I proudly embrace my hispanic heritage by bringing a unique perspective to my projects. 
-                 I am committed to excellence and collaboration in the pursuit of engineering innovation, with a dream to blend technology and art.
-
+                I am a Computer Science graduate from the George Washington University, 
+                driven by a lifelong synergy between engineering precision and creative innovation. 
+                My expertise spans full-stack development, intelligent AI integration, and human-computer interaction (HCI), 
+                allowing me to design scalable, impactful technology with a strong emphasis on user experience. 
+                Proudly leveraging my bilingual and Hispanic heritage, I bring a unique, culturally aware perspective to collaborative engineering teams. 
+                I am committed to technical excellence and mission-driven development, focusing on building high-impact systems that solve real-world problems through human-centered design.
                 </p>
             </div>
             <div className='flex md:flex-col lg:flex-row justify-between gap-6 md:gap-8 lg:gap-12'>
