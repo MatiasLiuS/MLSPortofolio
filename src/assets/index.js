@@ -12,6 +12,7 @@ import img5 from "./images/projects/image5.jpg"
 import img6 from "./images/projects/image6.jpg"
 import img7 from "./images/projects/image7.jpg"
 import img8 from "./images/projects/image8.jpg"
+import img9 from "./images/projects/image9.png"
 
 import vid1 from "./images/projects/Neuroscience_Notebook.mp4"
 import vid2 from "./images/projects/Shoppingcart.mp4"
@@ -31,6 +32,7 @@ export {
   img6,
   img7,
   img8,
+  img9,
   vid1,
   vid2,
   vid3,

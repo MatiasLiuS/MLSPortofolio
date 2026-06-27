@@ -1,5 +1,13 @@
-import { img1, img2, img3, img4, img5, vid3, img6, vid1, vid2, vid4, img7, vid5, img8 } from '../../assets';
+import { img1, img2, img3, img4, img5, img6, img7, img8, img9, vid1, vid2, vid3, vid4, vid5 } from '../../assets';
+
 export const slidesData = [
+{
+    url: img9, 
+    title: 'GESTE: Sign Language Translator',
+    description: 'Award-winning AI prototype using Meta Aria Glasses to translate German Sign Language into English. Designed the core NLP pipeline featuring a custom 6-layer sequence-to-sequence Transformer and Meta’s NLLB-200 model optimized for NVIDIA Jetson edge deployment. Winner of the 2025 Derril C. Rohlfs Award.',
+    languages: ['Python', 'PyTorch', 'Transformers', 'NLLB-200', 'OpenCV', 'NVIDIA Jetson'],
+    webButton: { url: 'https://engineering.gwu.edu/geste-sign-language-translator', label: 'View GWU Project Page', type: 'success' },
+  },
   {
     url: img1,
     title: 'Portfolio',

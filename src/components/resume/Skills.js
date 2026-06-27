@@ -1,72 +1,109 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+// Simple animation variants for staggered badge entry
+const containerVariants = {
+  animate: { transition: { staggerChildren: 0.05 } }
+};
+
+const badgeVariants = {
+  initial: { opacity: 0, y: 10 },
+  animate: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 100 } }
+};
+
 const Skills = () => {
+    // Grouping data into clean, logical technical categories
+    const coreDev = [
+      "Python", "Java", "Flask", "AI Tool Integration (ChatGPT, Gemini, DeepSeek APIs)", 
+      "Kotlin", "JavaScript", "C", "OpenCV", "HTML", "CSS", "XML"
+    ];
+
+    const ecosystemTools = [
+      "Git", "Vim", "Visual Studio Code", "Visual Studio", "Android Studio", 
+      "Unity / Unity 3D", "Meta API", "Aria Studio", "WordPress"
+    ];
+
+    const designProductivity = [
+      "Adobe Photoshop", "Canva", "Microsoft Office 365 (PowerPoint, Word, Outlook)", "Microsoft Excel"
+    ];
+
     return (
-      <motion.div
+    <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { duration: 0.5 } }}
-        className="w-full flex flex-col lg:flex-row gap-10 px-4 lg:px-20 py-12"
+        className="w-full mt-4 rounded-xl flex flex-col gap-12 px-4 lg:px-20 py-12 text-white bg-bodyColor2" 
       >
-        {/* Platforms & Tools Section */}
-        <div className="flex-1">
-          <div className="py-12 font-titleFont flex flex-col gap-4">
-            <p className="text-sm text-designColor1 tracking-[4px] uppercase">_______</p>
-            <h2 className="text-3xl lg:text-4xl font-bold">Platforms</h2>
+        {/* Core Development Section */}
+        <div>
+          <div className="py-6 font-titleFont flex flex-col gap-2">
+            <p className="text-sm text-designColor1 tracking-[4px] uppercase">{"// Engineering"}</p>
+            <h2 className="text-2xl lg:text-3xl font-bold uppercase tracking-wider">Core Development</h2>
           </div>
-          <div className='mt-14 flex flex-col gap-6'>
-            <SkillItem title="Microsoft Office 365 (PowerPoint, Word, Outlook)" percentage="100%" />
-            <SkillItem title="WordPress" percentage="100%" />
-            <SkillItem title="HTML" percentage="100%" />
-            <SkillItem title="Visual Studio Code" percentage="95%" />
-            <SkillItem title="Visual Studio" percentage="90%" />
-            <SkillItem title="Unity / Unity 3D" percentage="90%" />
-            <SkillItem title="Android Studio" percentage="90%" />
-            <SkillItem title="Git" percentage="90%" />
-            <SkillItem title="VIM" percentage="90%" />
-            <SkillItem title="Canva" percentage="90%" />
-            <SkillItem title="Meta API" percentage="90%" />
-            <SkillItem title="Aria Studio" percentage="90%" />
-          </div>
+          <motion.div 
+            variants={containerVariants}
+            initial="initial"
+            animate="animate"
+            className='mt-6 flex flex-wrap gap-3'
+          >
+            {coreDev.map((skill, index) => (
+              <SkillBadge key={index} title={skill} />
+            ))}
+          </motion.div>
         </div>
 
-        {/* Development Section */}
-        <div className="flex-1">
-          <div className="py-12 font-titleFont flex flex-col gap-4">
-            <p className="text-sm text-designColor1 tracking-[4px] uppercase">_______</p>
-            <h2 className="text-3xl lg:text-4xl font-bold">Development</h2>
+        {/* Two Column Layout for Tools & Secondary Skills */}
+        <div className="w-full flex flex-col lg:flex-row gap-12">
+          
+          {/* Platforms & Tools Section */}
+          <div className="flex-1">
+            <div className="py-6 font-titleFont flex flex-col gap-2">
+              <p className="text-sm text-designColor1 tracking-[4px] uppercase">{"// Ecosystem"}</p>
+              <h2 className="text-2xl font-bold uppercase tracking-wider">Platforms & Tools</h2>
+            </div>
+            <motion.div 
+              variants={containerVariants}
+              initial="initial"
+              animate="animate"
+              className='mt-6 flex flex-wrap gap-3'
+            >
+              {ecosystemTools.map((skill, index) => (
+                <SkillBadge key={index} title={skill} />
+              ))}
+            </motion.div>
           </div>
-          <div className='mt-14 flex flex-col gap-6'>
-            <SkillItem title="Python" percentage="100%" />
-            <SkillItem title="Java" percentage="100%" />
-            <SkillItem title="Flask" percentage="100%" />
-            <SkillItem title="AI Tool Integration (ChatGPT, Gemini, DeepSeek APIs)" percentage="90%" />
-            <SkillItem title="Kotlin" percentage="90%" />
-            <SkillItem title="JavaScript" percentage="90%" />
-            <SkillItem title="CSS" percentage="90%" />
-            <SkillItem title="OpenCV" percentage="90%" />
-            <SkillItem title="C" percentage="90%" />
-            <SkillItem title="XML" percentage="90%" />
-            <SkillItem title="Adobe Photoshop" percentage="90%" />
-            <SkillItem title="Microsoft Excel" percentage="90%" />
+
+          {/* Design & Productivity Section */}
+          <div className="flex-1">
+            <div className="py-6 font-titleFont flex flex-col gap-2">
+              <p className="text-sm text-designColor1 tracking-[4px] uppercase">{"// Creative & Admin"}</p>
+              <h2 className="text-2xl font-bold uppercase tracking-wider">Design & Productivity</h2>
+            </div>
+            <motion.div 
+              variants={containerVariants}
+              initial="initial"
+              animate="animate"
+              className='mt-6 flex flex-wrap gap-3'
+            >
+              {designProductivity.map((skill, index) => (
+                <SkillBadge key={index} title={skill} />
+              ))}
+            </motion.div>
           </div>
+
         </div>
       </motion.div>
     );
 };
 
-const SkillItem = ({ title, percentage }) => (
-    <div className="overflow-x-hidden">
-        <p className="text-sm uppercase font-medium">{title}</p>
-        <div className="w-full h-2 bg-gray-200 rounded-md mt-2">
-            <motion.div
-                initial={{ width: 0 }}
-                animate={{ width: percentage, transition: { duration: 0.5, delay: 0.5 } }}
-                className={`h-full bg-gradient-to-r from-[#ff0000] to-[#00ff44] rounded-md relative before:content-['${percentage}'] before:absolute before:right-0 before:-top-8`}>
-                <span className="absolute -top-7 right-0">{percentage}</span>
-            </motion.div>
-        </div>
-    </div>
+// Universal Badge Component with text-lightText and border-designColor1
+const SkillBadge = ({ title }) => (
+    <motion.div
+        variants={badgeVariants}
+        whileHover={{ scale: 1.05, y: -2 }}
+        className="px-4 py-2 rounded-md border bg-zinc-900 border-designColor1 text-lightText shadow-[0_0_15px_rgba(var(--designColor1-rgb),0.05)] text-xs md:text-sm font-medium tracking-wide transition-colors cursor-default"
+    >
+        {title}
+    </motion.div>
 );
 
 export default Skills;
