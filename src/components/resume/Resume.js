@@ -5,7 +5,7 @@ import Skills from './Skills';
 import Experience from './Experience';
 
 const Resume = () => {
-    const [activeSection, setActiveSection] = useState('education');
+    const [activeSection, setActiveSection] = useState('experience');
 
     // Function to handle click events
     const handleClick = (section) => {
