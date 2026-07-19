@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://matiasls.com/static/css/main.eb3fe4e8.css",
-    "main.js": "https://matiasls.com/static/js/main.e3f144cf.js",
+    "main.js": "https://matiasls.com/static/js/main.9df62455.js",
     "static/media/DinoDrive-Trailer.mp4": "https://matiasls.com/static/media/DinoDrive-Trailer.496891ac15c736e79cca.mp4",
     "static/media/Neuroscience_Notebook.mp4": "https://matiasls.com/static/media/Neuroscience_Notebook.c02b4f91645b023f7bf9.mp4",
     "static/media/Shoppingcart.mp4": "https://matiasls.com/static/media/Shoppingcart.131ca980f9642de29f66.mp4",
@@ -27,10 +27,10 @@
     "static/media/image3.jpg": "https://matiasls.com/static/media/image3.6008ffdaa119aa349942.jpg",
     "index.html": "https://matiasls.com/index.html",
     "main.eb3fe4e8.css.map": "https://matiasls.com/static/css/main.eb3fe4e8.css.map",
-    "main.e3f144cf.js.map": "https://matiasls.com/static/js/main.e3f144cf.js.map"
+    "main.9df62455.js.map": "https://matiasls.com/static/js/main.9df62455.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3fe4e8.css",
-    "static/js/main.e3f144cf.js"
+    "static/js/main.9df62455.js"
   ]
 }
