@@ -8,13 +8,23 @@ import schoolIconImage from "./George_Washington_University_seal.png"; // Import
 import tricorp from "./tricorp.png"; // Import TriCorp image
 import bnaLogo from "./bna_logo.png"; // Import B&A logo
 import thaddeusLogo from "./thaddeus_logo.png"; // Import Thaddeus logo
-import bamlogo from "./bam_logo.png"; // Import Thaddeus logo
+import bamlogo from "./bam_logo.png"; // Import BAM logo
+import tennisPlayerLogo from "./tennisplayer_logo.svg"; // Import Tennis Player logo
 
 const WorkExperience = () => {
   const schoolIconStyles = { background: "#373737" };
   const timelineElements = [
     {
       id: 1,
+      title: "Marketing Automation Contractor",
+      corporation: "Tennis Player.net",
+      location: "Remote",
+      description: "Build and maintain marketing automation for Tennis Player.net's online membership platform in GoHighLevel (GHL). Design CRM workflows and data architecture to organize member records and automate onboarding. Create and manage email campaigns, and develop membership retention systems to keep subscribers engaged and reduce churn.",
+      date: "June 2026 - Present",
+      image: tennisPlayerLogo
+    },
+    {
+      id: 2,
       title: "Software Engineer",
       corporation: "Bart and Associates, Inc.",
       location: "Washington, DC",
@@ -23,7 +33,7 @@ const WorkExperience = () => {
       image: bnaLogo
     },
     {
-      id: 2,
+      id: 3,
       title: "Afterschool Stem Instructor",
       corporation: "Brains and Motion Education",
       location: "San Francisco, CA",
@@ -32,7 +42,7 @@ const WorkExperience = () => {
       image: bamlogo
     },
     {
-      id: 3,
+      id: 4,
       title: "Advanced Topics in Augmented Reality TA",
       corporation: "George Washington University",
       location: "Washington, DC",
@@ -41,7 +51,7 @@ const WorkExperience = () => {
       image: schoolIconImage
     },
     {
-      id: 4,
+      id: 5,
       title: "AR/VR Teaching Assistant",
       corporation: "George Washington University",
       location: "Washington, DC",
@@ -50,22 +60,13 @@ const WorkExperience = () => {
       image: schoolIconImage
     },
     {
-      id: 5,
+      id: 6,
       title: "Web Development Intern",
       corporation: "Thaddeus Resource Center",
       location: "Remote",
       description: "Redesigned nonprofit website to improve accessibility and content structure. Worked directly with stakeholders to ensure mission clarity and effective information flow. Focused on WordPress development and UI/UX improvements.",
       date: "May 2024 - January 2025",
       image: thaddeusLogo
-    },
-    {
-      id: 6,
-      title: "Software Development Intern (Previous)",
-      corporation: "Bart & Associates, Inc.",
-      location: "McLean, VA",
-      description: "During my internship at Bart & Associates, I designed the layout and authored content for the 2024 end-of-year newsletter, ensuring brand consistency and clear messaging. I advised company leadership on AI integration strategies to optimize HR and payroll systems, including automation pipelines and data-driven insights. I also collaborated with the IT department to maintain and enhance the company website, focusing on improved hosting infrastructure and cybersecurity protocols.",
-      date: "June 2023 - Current",
-      image: bnaLogo
     },
     {
       id: 7,
