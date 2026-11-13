@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://matiasls.com/static/css/main.eb3fe4e8.css",
-    "main.js": "https://matiasls.com/static/js/main.9df62455.js",
+    "main.js": "https://matiasls.com/static/js/main.99cef0e0.js",
     "static/media/DinoDrive-Trailer.mp4": "https://matiasls.com/static/media/DinoDrive-Trailer.496891ac15c736e79cca.mp4",
     "static/media/Neuroscience_Notebook.mp4": "https://matiasls.com/static/media/Neuroscience_Notebook.c02b4f91645b023f7bf9.mp4",
     "static/media/Shoppingcart.mp4": "https://matiasls.com/static/media/Shoppingcart.131ca980f9642de29f66.mp4",
@@ -20,17 +20,18 @@
     "static/media/image7.jpg": "https://matiasls.com/static/media/image7.df4e27d5f5bf972c2af3.jpg",
     "static/media/George_Washington_University_seal.png": "https://matiasls.com/static/media/George_Washington_University_seal.9f0792307b4d5a26e183.png",
     "static/media/image5.jpg": "https://matiasls.com/static/media/image5.46691299e563a417e374.jpg",
-    "static/media/MatiasLiuSchmid_Resume.pdf": "https://matiasls.com/static/media/MatiasLiuSchmid_Resume.755f61940eecd7ce6deb.pdf",
     "static/media/bna_logo.png": "https://matiasls.com/static/media/bna_logo.30089fd009f138f1ce10.png",
     "static/media/thaddeus_logo.png": "https://matiasls.com/static/media/thaddeus_logo.1dbde4925158e62339d3.png",
     "static/media/bam_logo.png": "https://matiasls.com/static/media/bam_logo.5092b77224520adcaacc.png",
     "static/media/image3.jpg": "https://matiasls.com/static/media/image3.6008ffdaa119aa349942.jpg",
+    "static/media/MatiasLiuSchmid_Resume.pdf": "https://matiasls.com/static/media/MatiasLiuSchmid_Resume.f77df435b49ac6244df5.pdf",
     "index.html": "https://matiasls.com/index.html",
+    "static/media/tennisplayer_logo.svg": "https://matiasls.com/static/media/tennisplayer_logo.da3335e49ebc9769459369aeac458b2e.svg",
     "main.eb3fe4e8.css.map": "https://matiasls.com/static/css/main.eb3fe4e8.css.map",
-    "main.9df62455.js.map": "https://matiasls.com/static/js/main.9df62455.js.map"
+    "main.99cef0e0.js.map": "https://matiasls.com/static/js/main.99cef0e0.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3fe4e8.css",
-    "static/js/main.9df62455.js"
+    "static/js/main.99cef0e0.js"
   ]
 }
