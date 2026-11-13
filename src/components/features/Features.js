@@ -1,8 +1,8 @@
 import React from 'react';
 import Title from '../layouts/Title';
 import Card from './Card';
-import { MdWebStories, MdSmartphone, MdHeadphones } from "react-icons/md";
-import { FaDatabase } from "react-icons/fa";
+import { MdWebStories, MdSmartphone, MdHeadphones, MdLanguage } from "react-icons/md";
+import { FaDatabase, FaBrain } from "react-icons/fa";
 import { motion } from 'framer-motion'; // Import Framer Motion
 
 const Features = () => {
@@ -41,10 +41,26 @@ const Features = () => {
       </motion.div>
 
       <motion.div variants={itemVariants}>
-        <Card 
+        <Card
+          title="Websites & Web Presence"
+          des="I build and maintain websites that businesses rely on every day. I have taken companies from zero online presence to a fully operational site built from scratch, designed landing pages for multiple business ventures, and restored and stabilized legacy WordPress platforms. Beyond the build, I handle the full lifecycle: domains, DNS, and hosting, security patching and vulnerability remediation, accessibility and content structure, and responsive, mobile-friendly design in React or WordPress."
+          icon={<MdLanguage />}
+        />
+      </motion.div>
+
+      <motion.div variants={itemVariants}>
+        <Card
           title="Intelligent Systems & AI Integration"
           des="I specialize in bridging the gap between core software architecture and modern machine learning models. My work includes integrating advanced AI strategies into software systems to optimize operational pipelines, deploying custom Transformer NLP pipelines for live data tracking, and utilizing LLM APIs to drive intelligent feature automation. I build systems that process complex logic, from Monte Carlo Tree Search engines to automated multi-role validation tools."
-          icon={<FaDatabase />} // Or a brain/AI icon like GiArtificialIntelligence / FaBrain
+          icon={<FaBrain />}
+        />
+      </motion.div>
+
+      <motion.div variants={itemVariants}>
+        <Card
+          title="Databases & Data Management"
+          des="I design data systems that stay clean, organized, and useful as they grow. I have audited and restructured a live CRM database of 170,000+ contact records, built self-maintaining rule-based segments, and set data-governance standards adopted across a team. My database work includes normalized 3NF/BCNF schema design in MySQL on AWS RDS, query optimization, and unifying reporting across Google Analytics, PostHog, and CRM analytics so decisions are driven by reliable data."
+          icon={<FaDatabase />}
         />
       </motion.div>
 
