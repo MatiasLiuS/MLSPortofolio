@@ -39,7 +39,7 @@ const Navbar = () => {
                     ))}
                     <motion.a 
                         href={resume} 
-                        download="MatiasLiuSchmid_Resume.pdf" 
+                        download="Matias_Liu_Schmid_Resume_2026.pdf" 
                         className="text-white font-bold py-2 px-4 rounded-full text-sm bg-gradient-to-r from-designColor1 to-designColor2 hover:from-designColor2 hover:to-designColor1 duration-300 no-underline inline-block glow-on-hover"                        variants={buttonVariants}
                         initial="hidden"
                         animate="visible"
@@ -76,7 +76,7 @@ const Navbar = () => {
                         >
                             <a 
                                 href={resume} 
-                                download="MatiasLiuSchmid_Resume.pdf" 
+                                download="Matias_Liu_Schmid_Resume_2026.pdf" 
                                 className="text-white font-bold py-2 px-4 rounded-full text-sm bg-gradient-to-r from-blue-500 to-teal-400 hover:from-blue-700 hover:to-teal-600 duration-300 no-underline"
                             >
                                 Download My CV
