@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://matiasls.com/static/css/main.eb3fe4e8.css",
-    "main.js": "https://matiasls.com/static/js/main.99cef0e0.js",
+    "main.css": "https://matiasls.com/static/css/main.5889a5ef.css",
+    "main.js": "https://matiasls.com/static/js/main.d4ee32ca.js",
     "static/media/DinoDrive-Trailer.mp4": "https://matiasls.com/static/media/DinoDrive-Trailer.496891ac15c736e79cca.mp4",
     "static/media/Neuroscience_Notebook.mp4": "https://matiasls.com/static/media/Neuroscience_Notebook.c02b4f91645b023f7bf9.mp4",
     "static/media/Shoppingcart.mp4": "https://matiasls.com/static/media/Shoppingcart.131ca980f9642de29f66.mp4",
@@ -27,11 +27,11 @@
     "static/media/MatiasLiuSchmid_Resume.pdf": "https://matiasls.com/static/media/MatiasLiuSchmid_Resume.f77df435b49ac6244df5.pdf",
     "index.html": "https://matiasls.com/index.html",
     "static/media/tennisplayer_logo.svg": "https://matiasls.com/static/media/tennisplayer_logo.da3335e49ebc9769459369aeac458b2e.svg",
-    "main.eb3fe4e8.css.map": "https://matiasls.com/static/css/main.eb3fe4e8.css.map",
-    "main.99cef0e0.js.map": "https://matiasls.com/static/js/main.99cef0e0.js.map"
+    "main.5889a5ef.css.map": "https://matiasls.com/static/css/main.5889a5ef.css.map",
+    "main.d4ee32ca.js.map": "https://matiasls.com/static/js/main.d4ee32ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb3fe4e8.css",
-    "static/js/main.99cef0e0.js"
+    "static/css/main.5889a5ef.css",
+    "static/js/main.d4ee32ca.js"
   ]
 }
