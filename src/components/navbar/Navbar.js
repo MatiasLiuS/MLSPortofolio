@@ -76,7 +76,7 @@ const Navbar = () => {
                         >
                             <a 
                                 href={resume} 
-                                download="LowellPioquintoResume.pdf" 
+                                download="MatiasLiuSchmid_Resume.pdf" 
                                 className="text-white font-bold py-2 px-4 rounded-full text-sm bg-gradient-to-r from-blue-500 to-teal-400 hover:from-blue-700 hover:to-teal-600 duration-300 no-underline"
                             >
                                 Download My CV
